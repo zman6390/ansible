@@ -54,7 +54,7 @@
       ssh_password_enabled: false
       ssh_public_keys:
         - path: /home/azureuser/.ssh/authorized_keys
-          key_data: "<key_data>"
+          key_data: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCjWXuypey0Hilb6WVQCueI73BcGPxRB4v3AwPw+BbbbOuuawufdyA0UPoOBVK0QmrJqzPprI3BzHFReLusuG2xvBUExZjpTq7mKHcCfguCSG3z+anRZ+AwTy3Y9YI+U4yiE9SuAg3+Gs1xxzZwxflgTWdHZ6kPfjEsTgH3M3AizgqcIl3alS4uT3BFBkCifeKyDg68/7Up6MeU/j3TysL71yfC9RofxvD60OIm49LPBVK3eJua2eskRG7PUjB47/73Ot/uwW+Eno0fMbOQjV1UKyvZ64oNweb4APZTrBelxAcaH90ziEJ9oyqyd5W5In6ecY0m5PT8MJKt/GKVnGcznnwghC0ax1eLdYTlNla+QgBxTQ7LhT/HgwYXr2gg1GqZAwIc/6EGt4d/Kfaa0Afn2cfzt2q9rTKTZPE+TQBsK+ayI5KHAdVnJZJAHTsckAzWDcLDKwbXfdPIg/oTgG+IERzBEdXPaxBs7STbqNFDNVIsKkmdKNT+jERIWoZ4y81UcBBZG7xZGeQXLV2ppvqaK3qrw5AXYke6jT9W+aslxcV2E1een3jp0xMHfB/kcm1AkFK0sCAWJIe2QpAxqAQEoEqrhXBC9R/eXgRa7xI7tdaqOvjtcRsFNahez9mmH6CAYCWpraURxipXsFNrFS96hFy3wORv6DFoEnXHOpgYQw== cac2s@localhost.localdomain"
       network_interfaces: myNIC
       image:
         offer: CentOS
